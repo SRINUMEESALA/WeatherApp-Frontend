@@ -1,0 +1,26 @@
+.homeCon {
+    background-color: #132F4C;
+    min-height: 100vh;
+}
+
+.contentCon {
+    width: 90vw;
+}
+
+.weatherHeading {
+    font-size: 35px;
+}
+
+.headerCon {}
+
+.searchInputDiv {
+    min-width: 20vw;
+}
+
+.lightTextColor {
+    color: #DCDCDC;
+}
+
+.failureCon {
+    height: 80vh;
+}

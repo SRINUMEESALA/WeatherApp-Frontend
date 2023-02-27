@@ -1,0 +1,17 @@
+.currentWeatherCon {
+    background-color: white;
+    color: black;
+    background-image: url("https://img.freepik.com/premium-vector/passport-icon-color-vector-illustration_755164-2406.jpg?w=740");
+    height: 50vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.detCon {
+    color: #335981;
+}
+
+.degClass {
+    font-size: 18px;
+}
