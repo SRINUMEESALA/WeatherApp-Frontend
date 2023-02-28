@@ -8,7 +8,6 @@ import RefreshIcon from '@mui/icons-material/Refresh';
 const FavouriteCitiesCard = (props) => {
     const [getWeatherApiStatus, setGetWeatherApiStatus] = useState(apiStatusConstants.initial)
     const [weatherData, setWeatherData] = useState({ current: {}, location: {}, forecast: {} })
-    console.log(props.city, getWeatherApiStatus)
 
     const getWeatherReport = async (city) => {
         const url = `https://weatherapp-dk7n.onrender.com/weather?city=${city}&type=C`

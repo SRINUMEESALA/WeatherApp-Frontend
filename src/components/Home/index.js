@@ -81,7 +81,6 @@ const Home = () => {
                 setWeatherData(result[0])
                 setGetWeatherApiStatus(apiStatusConstants.success)
                 setIsSearching(false)
-                setSearchInput("")
             } else {
                 setGetWeatherApiStatus(apiStatusConstants.failed)
                 setIsSearching(false)
